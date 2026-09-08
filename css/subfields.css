@@ -1,0 +1,55 @@
+/*
+ * File: subfields.css
+ * 
+ * CSS page for the subfields, specifically designed for core skills.
+ * 
+ * Programmer: Neil Ghugare
+ * 
+ * Revision History:
+ * 09/08/2026 - Created initial version.
+ * 
+ * Notes:
+ */
+
+/* --- Core Skills Box --- */
+.core-skill-box {
+    background: hsla(272, 100%, 84%, 0.352);
+    border-left: 4px solid rgb(59, 25, 105);
+    padding: 20px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.core-skill-box.reversed {
+    border-left: none;
+    border-right: 4px solid rgb(59, 25, 105);
+}
+
+.title-span {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(59, 25, 105);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.skill-header {
+    text-align: center;
+    margin: 0 0 12px 0; 
+    color: #1a1a1a; 
+    font-size: 1.25rem;
+}
+
+.skill-text {
+    margin: 0; 
+    font-size: 0.95rem; 
+    line-height: 1.5; 
+    color: #4a4a4a;
+    text-align: left;
+}
