@@ -22,6 +22,9 @@
     <!-- FontAwesome CDN link. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
+    <!-- Subfields core skill CSS. -->
+    <link rel="stylesheet" href="../css/subfields.css">
+
 </head>
 
 <body>
@@ -157,6 +160,28 @@
         </div>
 
         <h2>Packages, Repositories, and Software</h2>
+
+        <section class="core-skill-box">
+            <span class="title-span">
+                Core Skill
+            </span>
+            <h3 class="skill-header">
+                ROOT Data Analysis Framework (CERN)
+            </h3>
+            <div class="important-container">
+                <div class="important-column">
+                    <p class="skill-text">
+                        ROOT is the industry-standard computational framework to process, store, and analyzed <i>petabytes</i> of nuclear, particle, and high-energy physics experimental data.
+                        Developed by CERN, it features an embedded C++ interpreter (<code>Cling</code>), multi-dimensional histogramming, advanced statistical fitting libraries (<code>RooFit</code>), and multiple machine learning tools (<code>TMVA</code>).
+                        It is an essential platform for analyzing particle physics collisions, complex radiation simulations, and high-energy astrophysical data.
+                        It requires C++ knowledge or Python through <code>PyROOT</code>.
+                        As a fair warning, it can sometimes be painful to set up and get running, and also to learn to use.
+                        It is supported for Linux/MacOS usage, but can also work on Windows through WSL2 and other workarounds. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
         <div class="card-container">
             <button class="collapsible-card collapsed">
                 <h2 class="collapsible-card-title">AxionLimits: Plot Limits for Axion-Like Particles</h2>
@@ -261,6 +286,25 @@
                     <p class="resource-contributor">Contributor: Charlotte Knight, Imperial College London, <i>Curator</i>; Neil Ghugare, University of Florida, <i>Writer</i></p>
                     <a class="collapsible-content-button" href="https://geant4.web.cern.ch/"
                         target="_blank">Click here to access this resource</a>
+                </div>
+            </button>
+
+            <button class="collapsible-card collapsed">
+                <h2 class="collapsible-card-title">ROOT</h2>
+                <div class="collapsible-card-info">
+                    <p class="resource-requirements">
+                        Language Requirement(s): Written in C++ and requires C++17 compiler. It has native Python support via <code>PyROOT</code> bindings. Depends on CMAke for configuration and optional libraries like Graphviz, X11, or OpenGL for graphical displays.
+                        Usage Requirements: Runs on Linux/MacOS, Windows too but requires more set-up/WSL2. Reads and writes binary <code>.root</code> files, handles ASCII, CSV, and FITS too. Runs on standard hardware up to high-performance computing clusters. Supports parallel processing and works offline.
+                    </p>
+                    <p>
+                        The industry-standard computational framework developed by CERN to process, store, and analyze <i>petabytes</i> of high-energy and nuclear physics experimental data.
+                        It features an embedded C++ interpreter, multi-dimensional histogramming, advanced statistical fitting libraries, and machine learning tools.
+                        It serves as an essential platform for analyzing particle collisions, astrophysics data, and complex particle/nuclear/radiation simulations.
+                    </p>
+                    <p class="resource-contributor">Contributor: Neil Ghugare, University of Florida</p>
+                    <a class="collapsible-content-button" href="https://root.cern.ch/" target="_blank" rel="noopener">
+                        Click here to access this resource
+                    </a>
                 </div>
             </button>
 
