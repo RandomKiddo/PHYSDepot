@@ -21,6 +21,10 @@
 
     <!-- FontAwesome CDN link. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Subfields core skill CSS. -->
+    <link rel="stylesheet" href="../css/subfields.css">
+
 </head>
 
 <body>
@@ -34,6 +38,23 @@
 
 
         <h2>Resources, Tools, & Software</h2>
+
+        <section class="core-skill-box">
+            <span class="title-span">
+                Core Skill
+            </span>
+            <h3 class="skill-header">
+                LabVIEW Hardware Control
+            </h3>
+            <div class="important-container">
+                <div class="important-column">
+                    <p class="skill-text">
+                        A system-design platform and visual programming environment used extensively in experimental physics labs.
+                        Applied to interface directly with lab hardware, automate multi-instrument data acquisition workflows, and build real-time monitoring systems.
+                    </p>
+                </div>
+            </div>
+        </section>
 
         <div class="card-container">
  
@@ -164,6 +185,24 @@
 
         <h2>Packages</h2>
 
+        <section class="core-skill-box">
+            <span class="title-span">
+                Core Skill
+            </span>
+            <h3 class="skill-header">
+                Scikit-Learn Statistical Modeling & ML
+            </h3>
+            <div class="important-container">
+                <div class="important-column">
+                    <p class="skill-text">
+                        An essential Python library for predictive data analysis and statistical learning.
+                        Widely utilized across physics research for dimensionality reduction, feature extraction, linear and non-linear regression, and clustering physical data without the overhead of deep learning architectures.
+                        For deep learning, see <a href="https://pytorch.org/" target="_blank" rel="noopener">PyTorch</a>. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
     <div class="card-container">
 
             <button class="collapsible-card collapsed">
@@ -225,6 +264,25 @@ This GUI enables real time analysis of spectral features online. This helps inst
                     <a class="collapsible-content-button" href="https://f1000research.com/articles/15-1187" target="_blank">Click here to access this resource</a>
                 </div>
             </button>
+
+            <button class="collapsible-card collapsed">
+                <h2 class="collapsible-card-title">PyTorch</h2>
+                <div class="collapsible-card-info">
+                    <p class="resource-requirements">
+                        Language Requirement(s): Requires Python (C++ front-end available).
+                        Usage Requirements: Runs on standard CPUs to GPU/TPU clusters. Handles arbitrary tensor data formats (NumPy arrays, HDF5, etc.). Internet connectivity recommended for package installation and model downloads.
+                    </p>
+                    <p>
+                        An open-source machine learning and scientific computing framework featuring dynamic automatic differentiation.
+                        Researchers use it to build custom neural networks, perform GPU-accelerated statistical inference, and execute non-linear regression on large datasetes.
+                        It lowers the barrier to entry for experimentalists by allowing dynamic code execution and intuitive debugging using standard Python syntax.
+                        Its largest competitor is <a href="https://www.tensorflow.org/" target="_blank" rel="noopener">TensorFlow</a>, but PyTorch is more overwhelmingly used in research.
+                    </p>
+                    <p class="resource-contributor">Neil Ghugare, University of Florida</p>
+                    <a class="collapsible-content-button" href="https://pytorch.org/" target="_blank" rel="noopener">Click here to access this resource</a>
+                </div>
+            </button>
+
             <!-- INSERT_EXP_PACKAGES -->
 
     </div>
